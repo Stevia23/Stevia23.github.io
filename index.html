@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VadimTarot</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   
+</head>
+<body class="dark">
+    <div class="main-container">
+        <div class="aside">
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Главная</a></li>
+                <li><a href="#about" ><i class="fa fa-user"></i>Кто я</a></li>
+                <li><a href="#services" ><i class="fa fa-list"></i>Мои практики</a></li>
+                <li><a href="#portfolio" ><i class="fa fa-briefcase"></i>Карта Дня</a></li>
+                <li><a href="#contact" ><i class="fa fa-comments"></i>Контакты</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <section class="home section active" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Добро пожаловать!</h3>
+                            <h3 class="profession">Меня зовут <span class="typing">Вадим</span></h3>
+                            <p> Я - Ваш проводник в мир гармонии и внутреннего баланса. Если вы готовы сделать шаг навстречу лучшей жизни прямо сейчас, попробуйте <span class="typing">Карту дня</span> или запишитесь на консультацию.</p>
+                            <a href="#contact" class="btn ">Запись</a>
+                        </div>
+
+                        <div class="home-img padd-15">
+                            <img src="images/1.jpeg" alt="hero image"> 
+                        </div>
+                    </div>
+                </div>
+                <canvas id="parallaxStars"></canvas>
+
+            </section>
+
+            <section class="about section " id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Кто я и как я могу вам помочь</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Меня зовут Вадим,</h3>
+                                    <p>Мне 20 лет, и я занимаюсь практической магией, помогая людям находить баланс и гармонию. Моя работа заключается в том, чтобы предоставлять поддержку и направлять вас на путь самопознания и личностного роста.</p>
+                                    <p>Можно сказать, я — скорая магическая помощь.</p>
+                                </div>
+                            </div>
+
+                        <div class="personal-qualities">
+                            <h4>Почему клиенты выбирают меня:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Конфиденциальность и деликатность</li>
+                                <li><i class="fas fa-check"></i> Опыт более 3 лет в эзотерических практиках</li>
+                                <li><i class="fas fa-check"></i> Индивидуальный подход к каждому клиенту</li>
+                                <li><i class="fas fa-check"></i> Честность и прямота в толкованиях</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" class="btn hire-me" data-section-index="1">Связаться со мной</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                            
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Мои услуги</h2>
+                        </div>
+                    </div>
+            
+                    <!-- Группа "Диагностика" -->
+                    <div class="service-group">
+                        <h3 class="service-category"><i class="fas fa-eye" style="color: #4A90E2;"></i> 🔮 Диагностики</h3>
+                        
+                        <div class="service-items-container">
+                            <!-- Карточка 1 -->
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-bolt" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Диагностика на негатив</h4>
+                                    <p>Анализ чакровых центров, выявление магического и бытового негатива, проверка финансовых каналов.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Карточка 2 -->
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-search" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Диагностика ситуации</h4>
+                                    <p>Индивидуальный разбор любой проблемы: отношения, карьера, здоровье, финансы.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Карточка 3 -->
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-heartbeat" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Диагностика отношений</h4>
+                                    <p>Глубокий анализ связи между партнёрами, выявление скрытых конфликтов и блоков.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Карточка 4 -->
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-calendar" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Прогноз на период</h4>
+                                    <p>Диагностика ключевых событий в личной жизни, работе и психологическом состоянии.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Карточка 5 -->
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-user-tie" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Диагностика партнёра</h4>
+                                    <p> Его характер, намерения, истинные чувства к вам.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Карточка 6 -->
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-brain" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Диагностика мыслей</h4>
+                                    <p>Что человек думает, чувствует и планирует в отношении вас.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Группа "Магическая помощь" -->
+                    <div class="service-group">
+                        <h3 class="service-category"><i class="fas fa-magic" style="color: #4A90E2;"></i> ✨ Ритуалы</h3>
+                        
+                        <div class="service-items-container">
+                            <!-- Карточка 1 -->
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-broom" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Очищение от негатива </h4>
+                                    <p>Снятие негативных программ.</p>
+                                </div>
+                            </div>
+
+                           
+                            
+                            <!-- Карточка 2 -->
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-venus" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Морок на красоту</h4>
+                                    <p>Энергетическая коррекция, усиливающая вашу привлекательность (5000 руб.)</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Карточка 3 -->
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-heart" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Привлечение любви</h4>
+                                    <p>Ритуал для встречи с партнёром или гармонизации отношений (15 000 руб.)</p>
+                                </div>
+                            </div>
+
+                            <div class="service-item">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fas fa-broom" style="color: #4A90E2;"></i>
+                                    </div>
+                                    <h4>Амулет на удачу </h4>
+                                    <p>Данный амулет является хорошим помощником для того, чтобы складывать событийный ряд благоприятным для человека образом.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="service-footer" style="text-align: center; margin-top: 40px;">
+                        <p>Каждая работа проводится индивидуально, с глубоким погружением в вашу ситуацию.</p>
+                
+                        <a href="#contact" class="btn" style="margin-top: 20px;">📩 Записаться на консультацию</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                  <div class="row">
+                    <div class="section-title padd-15">
+                      <h2>Карта Дня</h2>
+                    </div>
+                  </div>
+              
+                  <div class="row">
+                    <div class="tarot-container">
+                      <div class="row">
+                        <div class="portfolio-heading padd-15">
+                          <h3>✨ Вытяните свою карту дня</h3>
+                          <p>Нажмите на кнопку и получите послание от карт</p>
+                        </div>
+                      </div>
+              
+                      <div class="card-container">
+                        <div id="card-result" class="hidden">
+                          <img id="card-image" src="" class="card-image" alt="Карта Таро" />
+                          <p id="card-name" class="card-name"></p>
+              
+                          <form
+                            id="reveal-form"
+                            class="contact-form"
+                            action="https://formspree.io/f/mdkggbog"
+                            method="POST"
+                          >
+                            <input
+                              type="hidden"
+                              name="card"
+                              id="hidden-card"
+                            />
+                            <div class="form-item col-12 padd-15">
+                              <input
+                                type="text"
+                                name="name"
+                                class="form-control"
+                                placeholder="Ваше имя"
+                                required
+                              />
+                            </div>
+                            <div class="form-item col-12 padd-15">
+                              <input
+                                type="email"
+                                name="email"
+                                class="form-control"
+                                placeholder="Ваш Email"
+                                required
+                              />
+                            </div>
+                            <div class="form-item col-12 padd-15">
+                              <textarea
+                                name="question"
+                                class="form-control"
+                                placeholder="Ваш вопрос (по желанию)"
+                              ></textarea>
+                            </div>
+                            <div class="form-item col-12 padd-15">
+                              <button type="submit" class="btn">Получить расшифровку</button>
+                            </div>
+                          </form>
+                        </div>
+              
+                        <div id="draw-card-wrapper">
+                          <button id="draw-card-btn" class="btn">🔮 Вытянуть карту</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Контакты</h2>
+                        </div>
+                    </div>
+
+                    <h3 class="contact-title padd-15">Остались вопросы?</h3>
+                    <h4 class="contact-subtitle padd-15">Свяжись со сной</h4>
+
+                    <div class="row">
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>В телеграмм по номеру телефона:</h4>
+                            <p>+79009009090</p>
+                        </div>
+
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Моя группа в телеграме</h4>
+                            <p>Вадим Синебабкин</p>
+                        </div>
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Почта</h4>
+                            <p>info@gmail.ru</p>
+                        </div>
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-globe"></i></div>
+                            <h4>Страница в ВКонтакте</h4>
+                            <p>Вадим Синебабкин</p>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Оставь заявку и мы с тобой свяжемся!</h3>
+                  
+
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Имя">
+                                    </div>
+                                </div>
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Почта">
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" class="form-control" placeholder="Комментарий"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn">Отправить сообщение</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+
+        <h4>Theme Colors</h4>
+
+        <div class="colors">
+           
+        </div>
+    </div>
+
+   
+    <script src="tarot.js"></script>
+    <script src="parallaxStars.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script src="app.js"></script>
+    
+    
+</body>
+</html>
